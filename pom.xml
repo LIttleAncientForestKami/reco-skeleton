@@ -51,7 +51,7 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>edu.lafk.recoskeleton.RecoSkeletonApplication</mainClass>
+                                    <mainClass>edu.lafk.recoskeleton.RecoSkeletonApp</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
